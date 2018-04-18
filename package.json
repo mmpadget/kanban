@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Kanban",
   "license": "MIT",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint",
