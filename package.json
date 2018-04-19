@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "description": "Kanban",
   "license": "MIT",
-  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmpadget/kanban.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmpadget/kanban/issues"
+  },
+  "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll",
     "lint": "eslint",
     "build": "webpack",
     "watch": "webpack-dev-server --inline --hot"
